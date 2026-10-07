@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pantry"
+version = "0.0.0"
+description = "A feature store"
+readme = "README.md"
+requires-python = ">=3.12"
+authors = [{ name = "Sagar Arora" }]
+dependencies = []
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
